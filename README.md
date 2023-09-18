@@ -1,3 +1,4 @@
+
 HTML:
 coloquei o titulo do jogo em um <h1>, criei o canvas e linkei todos os scripts no html.
 
