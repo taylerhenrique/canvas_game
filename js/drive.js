@@ -177,7 +177,7 @@ function drawDificulty(){
     ctx.strokeStyle = "";
     ctx.stroke();
 
-
+	//Definindo as dificuldades
     if(dificuldade == 0){    
         ctx.fillText("F", 850, 50);
         ctx.fillText("A", 850, 100);
