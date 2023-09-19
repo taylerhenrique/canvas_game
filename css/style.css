@@ -1,8 +1,14 @@
+/*
+	Definindo a posição
+*/
 *{
     margin: 0;
     padding: 0;
 }
 
+/*
+	Definindo as cores
+*/
 body{
     background-color: black;
 }
