@@ -82,6 +82,7 @@ for (let i = 0; i < 3; i ++ ){
     
     
     
+// Gerando Obstaculos
 }
 
 function drawObstaculos(ctx){
