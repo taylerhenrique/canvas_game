@@ -1,7 +1,9 @@
+//Definindo suas posições
 var position = 247.5/2;
 var speedPlayer = 7;
 var carWidth = 80;
 var carHeight = 150;
+//Colocando imagem no canvas 
 var carImage = new Image(carWidth);
 carImage.src = "img/car.png";
 var life = 3;
@@ -21,7 +23,7 @@ document.addEventListener("keydown", function(event) {
 document.addEventListener("keyup", function(event) {
     key[event.key] = false;
 });
-
+//Botoes para movimentar de um lado para o outro
 function updatePlayer(){
     if((key["a"] || key["A"]) && position>=120){
         position -= speedPlayer;
@@ -34,7 +36,6 @@ function updatePlayer(){
     score += 1;
 
 }
-
 function drawPlayer(ctx){
     ctx.drawImage(carImage, position, 600-carHeight, carWidth, carHeight);
     for(i = 0; i<life; i++){
