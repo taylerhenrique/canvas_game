@@ -1,14 +1,35 @@
-dupla: Tayler Henrique - Ruan Pablo
-#_Canvas_Game
-#_HTML
-Coloquei o titulo do jogo em um <h1>, criei o canvas e linkei todos os scripts no html.
+# Jogo No Canvas
+<h1>Atividade de DJW - Canvas</h1>
 
-#_CSS
-Coloquei o background em preto, estilizei o <h1> e centralizei o canvas.
+<h2>Autores:</h2> Ruan e Tayler
 
-#_JAVASCRIPT
-Separei os scripts em 4 partes, sendo elas, drive, road, player e obstaculo.
-no drive eu transformei o jogo em uma coisa só e criei a dificuldade.
-no road eu desenhei a estrada, e coloquei um animação nas linhas brancas para dar uma sensação de movimento.
-no player eu adicionei o jogador, adicionei as vidas, a movimentação e o score.
-no obstaculo eu adiocionei os obstaculos e fiz com que eles aparecessem de forma aleatoria na estrada e coloquei colisão, causando o fim de jogo caso o player colidisse com um dos obstaculos.
+<h2>Elementos usados:</h2> HTML, Css, JavaScript
+
+<h2>Descrição do projeto:<h2>
+Este é um projeto de jogo no canvas, que tem como objetivo, representar de forma ilustrativa a música:
+
+-País tropical https://youtu.be/JzByVhWju88?si=rnok2wdgPkwUgs8h
+
+Ela representa nosso país contando a alegria que temos durante o mês de fevereiro (Durante o carnaval) e mostra a simpatia e felicidade que temos nessa época do ano
+O jogo retrata esse temas de forma simplificada e tenta fazer o usuário refletir sobre estes temas ao jogar o jogo.
+O Jogo pode mostrar apenas um carro na contra-mão e a cada espaço que ele se move ele ganha pontos. Mais se pensarmos fora do padrão do jogo percebemos que a cada dificuldade e o motorista alcoolizado colocando sua vida em risco cada fez mais.
+
+   <img src="img/TelaInicial.png">
+   <img src="img/Execução.png">
+   
+<h2>Informações do Jogo:<h2> 
+<p>
+      
+- [Pressione o botão Start para iniciar o jogo]()
+      
+- [Pressione a Tecla D para movimentar o veiculo para a Direita]()
+  
+- [Pressione a Tecla A para movimentar o veiculo para a Esquerda]()
+  
+- [Desvie dos carros para obter o maior score]()
+  
+- [Se acaso colidir independente da dificuldade, clicar em Game Over para reiniciar o jogo]()
+  
+
+
+</p>
